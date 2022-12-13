@@ -15,7 +15,6 @@ for (int i = 0; i < limit; i++)
 {
 printf("%d", i);
 }
-putchar(10);
 putchar('\n');
 return (0);
 }
