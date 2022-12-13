@@ -1,25 +1,30 @@
 #include <stdio.h>
 
-int main (void) 
+/**
+* main - logs base16 numbers in lowercase
+*
+* Return: returns 0 and exits the program
+*/
+int main(void)
 {
-	
-  char x = '0';
 
-  while (x <= '9') 
-  {
-    putchar(x);
-    x++;
-  }
+char x = '0';
 
-  char z = 'a';
+while (x <= '9') 
+{
+putchar(x);
+x++;
+}
 
-  while (z <= 'f') 
-  {
-    putchar(z);
-    z++;
-  }
+char z = 'a';
 
-  putchar(10);
-  
-	return 0;
+while (z <= 'f')
+{
+putchar(z);
+z++;
+}
+
+putchar(10);
+
+return 0;
 }
