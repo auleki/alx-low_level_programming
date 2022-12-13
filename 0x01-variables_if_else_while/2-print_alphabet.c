@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-int main (void) 
+/**
+* main - logs an alphabet in lowercase
+*
+* Return: returns 0 and exits the program
+*/
+int main(void)
 {
 char ch;
 
