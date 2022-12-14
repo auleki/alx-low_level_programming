@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-* _islower - prints a through z in lowercase ten times over
+* _islower - checks if character is lowercase
+* @c - character
 */
 
 int _islower(int c)
