@@ -5,11 +5,11 @@
 *
 * @n: accepts an integer
 *
-* Return: a number 
+* Return: a number
 */
 int print_sign(int n)
 {
-if (n > 0) 
+if (n > 0)
 {
 _putchar('+');
 return (1);
@@ -22,6 +22,6 @@ return (0);
 else
 {
 _putchar('-');
-return(-1);
+return (-1);
 }
 }
