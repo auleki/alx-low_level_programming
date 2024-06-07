@@ -1,0 +1,8 @@
+all: build
+
+CC = gcc
+SRC = .c
+
+build:
+	${CC} main${SRC} school${SRC} -o school
+
